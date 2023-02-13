@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+}
+
+main{
+    display:inline-flex;
+}
+
+nav ul li{
+    padding: 50px;
+}
+
+.content-container{
+    padding-top: 50px;
+}
+
+.content-container p{
+    padding-bottom: 20px;
+}
+
+.section-title{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    height: 150px;
+    position: absolute;
+    right: 40px;
+    
+}
+.banner-img{
+    background-image: url(../img/design1_image1.jpg);
+    height: 30vh;
+    text-align: left;
+}
+
