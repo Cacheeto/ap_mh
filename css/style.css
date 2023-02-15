@@ -14,8 +14,30 @@ main{
     display:inline-flex;
 }
 
-nav ul li{
-    padding: 50px;
+nav{
+    padding: 30px;
+}
+nav ul li, a{
+    padding-top: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+table, td{
+    padding: 10px;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h3{
+    padding: 20px 0px;
 }
 
 .content-container{
@@ -44,3 +66,11 @@ nav ul li{
     text-align: left;
 }
 
+.title-container{
+    text-align: center;
+    padding: 3vh 0vh;
+}
+
+.all-play ul li{
+    list-style-type:circle;
+}
