@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+}
+
+main{
+    display:inline-flex;
+}
+
+nav{
+    padding: 30px;
+}
+nav ul li, a{
+    padding-top: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+table, td{
+    padding: 10px;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+section div > h3{
+    padding: 30px 0;
+}
+
+
+legend{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.IHF > ol li {
+    padding-bottom: 10px;
+}
+.content-container{
+    padding-top: 50px;
+}
+
+.content-container p{
+    padding-bottom: 20px;
+}
+
+.section-title{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    height: 150px;
+    position: absolute;
+    right: 40px;
+    
+}
+.banner-img{
+    background-image: url(../img/design1_image1.jpg);
+    height: 30vh;
+    text-align: left;
+}
+
+.title-container{
+    text-align: center;
+    padding: 3vh 0vh;
+}
+
+.all-play ul li{
+    list-style-type:circle;
+}
