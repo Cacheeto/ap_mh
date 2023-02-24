@@ -46,6 +46,17 @@ legend{
     padding-bottom: 20px;
 }
 
+.mapsubi{
+    grid-row: auto;
+    gap: 50px;
+}
+
+.mapschool{
+    border-radius: 10%;
+    height: 250px;
+    width: 250px;
+}
+
 .IHF > ol li {
     padding-bottom: 10px;
 }
