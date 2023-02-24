@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="banner-img">
-            <h1 class="title">Mighty Ducks Hockey League</h1>
+            <h2 class="title">Mighty Ducks Hockey League</h2>
         </div>
         <div class="section-title">
             <h2 class="">Register</h2>
@@ -52,17 +52,20 @@
                     <label for="birthday">Birth Date:</label>
                     <input type="date" id="birthday" name="birthday">
                     <label for="female">Gender: Female</label>
-                    <input type="radio"  name="gender" title="fem">
+                    <input type="radio" id="female" name="gender" title="fem">
                     <label for="male">Male</label>
-                    <input type="radio"  name="gender" title="male">
+                    <input type="radio" id="male" name="gender" title="male">
                     <br>
-                    <label for="grade">Grade:</label>
-                    <input type="radio"  name="grade" title="pre-school">Pre-School
-                    <input type="radio"  name="grade" title="first">1st
-                    <input type="radio"  name="grade" title="second">2nd
-                    <input type="radio"  name="grade" title="third">3rd
-                    <input type="radio"  name="grade" title="4th">4th
-                    <input type="radio"  name="grade" title="5th">5th
+                    <label for="school-grade">Grade:</label>
+                    <select name="grade" id="school-grade">
+                        <option value="">----Please Select Grade----</option>
+                        <option value="pre-school">Pre-School</option>
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                        <option value="5th">5th</option>
+                    </select>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
@@ -78,14 +81,14 @@
                         <option value="south-elementary">South Elementary</option>
                     </select>
                     <h3>What position(s) do you normally play?</h3>
-                    <input type="checkbox" title="foward">
+                    <input type="checkbox" id="foward" title="foward">
                     <label for="foward">Foward</label>
-                    <input type="checkbox" title="defense">
+                    <input type="checkbox" id="defense" title="defense">
                     <label for="foward">defense</label>
-                    <input type="checkbox" title="Midfield">
+                    <input type="checkbox" id="midfield" title="Midfield">
                     <label for="foward">Midfield</label>
-                    <input type="checkbox" title="Midfield">
-                    <label for="foward" title="Goalkeeper">Goalkeeper</label>
+                    <input type="checkbox" id="Goalkeeper" title="Goalkeeper">
+                    <label for="foward" >Goalkeeper</label>
                     <h3>Uniform Size</h3>
                     <input type="radio"  name="uniform" title="ys">Youth Smal
                     <input type="radio"  name="uniform" title="ym">Youth Medium
@@ -100,9 +103,13 @@
                     <p>I, the parent or guardian of the minor registrant, agree that the registrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In reconognizing the possibility of physical injury associated whit hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, i hereby realese, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation</p>
                     <p>By signing below, i herebyagree and authorize the above. In addition, by singning below, i also acknowledge that i have read the cancellation policy and agree to its terms.</p>
                     <br>
-                    <p>Parent/GuardianSignature:_____________________</p>
+                    <label for="namePG">Parent/GuardianSignature:</label>
+                    <input type="text" name="name" id="namePG">
                     <br>
-                    <p>Date:_________________</p>
+                    <label for="datepg">Date: </label>
+                    <input type="date" name="date" id="datepg">
+                    <br>
+                    <input type="submit">
                 </fieldset>
 
             </form>
